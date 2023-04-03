@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: hsl(30, 38%, 92%);
+}
+.box {
+	background-color: hsl(0, 0%, 100%);
+}
+.perfume {
+	font-family: "Montserrat", sans-serif;
+}
+.title {
+	font-family: "Fraunces", serif;
+}
+.description {
+	font-family: "Montserrat", sans-serif;
+}
+.price-wrapper {
+	font-family: "Fraunces", serif;
+}
+.button:hover {
+	background-color: green;
+}
